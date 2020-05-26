@@ -49,10 +49,7 @@ header .site-name {
     font-size: 2em;
     color: var(--light-secondary-text-color);
     font-weight: 400;
-}
-
-header .site-description {
-    margin-top: 1em;
+    margin-bottom: 12px;
 }
 
 header p {
@@ -134,7 +131,7 @@ a {
 }
 
 .item-list h1 {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     font-size: 1.5em;
     font-weight: medium;
 }
@@ -147,6 +144,10 @@ a {
     margin-bottom: 0;
 }
 
+.item-list .post-date {
+    text-indent: 0;
+}
+
 .tag-list li,
 .tag {
     display: inline-block;
@@ -156,6 +157,7 @@ a {
     padding: 6px 10px;
     border-radius: 0.5em;
     margin-right: 8px;
+    margin-top: 6px;
 }
 
 .tag-list a,
@@ -179,6 +181,10 @@ a {
 .all-tags li {
     margin-right: 10px;
     padding: 6px 8px;
+}
+
+footer {
+    margin-bottom: 40px;
 }
 
 @media(max-width: 600px) {
