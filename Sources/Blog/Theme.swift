@@ -4,6 +4,7 @@
 //  Created by Piero Mattos on 20/05/20.
 //
 
+import Foundation
 import Plot
 import Publish
 
@@ -154,9 +155,11 @@ private extension Node where Context == HTML.BodyContext {
     static func header<T: Website>(for context: PublishingContext<T>, selectedSection: T.SectionID?) -> Node {
         .header(
             .wrapper(
-                .a(.class("site-name"), .href("/"), .text(context.site.name)),
                 .p(
-                    .class("site-description"),
+                    .class("site-name"),
+                    .a(.href("/"), .text(context.site.name))
+                ),
+                .p(
                     .text("I'm an iOS software engineer and gamer from Jundiaí, SP, Brazil.")
                 ),
                 .p(
@@ -182,6 +185,7 @@ private extension Node where Context == HTML.BodyContext {
                 .li(
                     .article(
                         .h1(.a( .href(item.path), .text(item.title))),
+                        .p(.class("post-date"), "Posted on \(formattedPostDate(item.date))"),
                         .tagList(for: item, on: site),
                         .p(.text(item.description))
                     )
@@ -214,5 +218,12 @@ private extension Node where Context == HTML.BodyContext {
 
     static func headerLink(_ text: String, href: String) -> Node {
         .a(.class("header-link"), .text(text), .href(href))
+    }
+
+    static func formattedPostDate(_ date: Date) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US")
+        dateFormatter.dateStyle = .medium
+        return dateFormatter.string(from: date)
     }
 }
