@@ -1,3 +1,15 @@
+/* Colors */
+:root {
+    --light-primary-bg-color: #fff;
+    --light-secondary-bg-color: #0b132b;
+    --light-tertiary-bg-color: #eeeeee;
+    --light-primary-text-color: #000;
+    --light-secondary-text-color: #fff;
+    --light-primary-link-color: #eb9800;
+    --light-tag-bg-color: #3a506b;
+    --light-tag-text-color: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +17,9 @@
 }
 
 body {
-    background: #fff;
-    color: #000;
-    font-family: Helvetica, Arial;
+    background: var(--light-primary-bg-color);
+    color: var(--light-primary-text-color);
+    font-family: Trebuchet MS, Helvetica, Arial;
     text-align: center;
 }
 
@@ -20,7 +32,7 @@ body {
 }
 
 header {
-    background-color: #002540;
+    background-color: var(--light-secondary-bg-color);
 }
 
 header .wrapper {
@@ -35,7 +47,7 @@ header a {
 
 header .site-name {
     font-size: 2em;
-    color: #fff;
+    color: var(--light-secondary-text-color);
     font-weight: 400;
 }
 
@@ -45,18 +57,18 @@ header .site-description {
 
 header p {
     font-size: 1em;
-    color: #fff;
+    color: var(--light-secondary-text-color);
     font-weight: 200;
 }
 
 header .header-link {
     text-decoration: underline;
     font-weight: 400;
-    color: #fff;
+    color: var(--light-secondary-text-color);
 }
 
 header .header-ribbon {
-    background-color: #eeeeee;
+    background-color: var(--light-tertiary-bg-color);
     height: 4px;
 }
 
@@ -94,7 +106,7 @@ article p {
 }
 
 article p a {
-    color: #d48900;
+    color: var(--light-primary-link-color);
 }
 
 article iframe,
@@ -115,7 +127,7 @@ a {
     display: block;
     padding: 20px;
     border-radius: 8px;
-    background-color: #eee;
+    background-color: var(--light-tertiary-bg-color);
     margin-bottom: 20px;
 }
 
@@ -140,12 +152,12 @@ a {
 .tag-list li,
 .tag {
     display: inline-block;
-    background-color: #7a6c64;
-    color: #fff;
+    background-color: var(--light-tag-bg-color);
+    color: var(--light-tag-text-color);
     font-weight: 600;
-    padding: 6px 6px;
+    padding: 6px 10px;
     border-radius: 0.5em;
-    margin-right: 7px;
+    margin-right: 8px;
 }
 
 .tag-list a,
