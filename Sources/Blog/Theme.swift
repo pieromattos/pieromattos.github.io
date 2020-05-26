@@ -155,15 +155,20 @@ private extension Node where Context == HTML.BodyContext {
         .header(
             .wrapper(
                 .a(.class("site-name"), .href("/"), .text(context.site.name)),
-                .p(.class("site-description"), .text(context.site.description)),
+                .p(
+                    .class("site-description"),
+                    .text("I'm an iOS software engineer and gamer from Jundiaí, SP, Brazil.")
+                ),
                 .p(
                     .text("You can find me on: "),
                     .headerLink("GitHub", href: "https://www.github.com/pieromattos"),
                     .text(", "),
                     .headerLink("LinkedIn", href: "https://www.linkedin.com/in/pieromattos"),
-                    .text(" and "),
+                    .text(", and "),
                     .headerLink("Twitter", href: "https://www.twitter.com/piero_mattos"),
-                    .text(".")
+                    .text(". Or you can "),
+                    .headerLink("e-mail me", href: "mailto:piero@pmattos.com"),
+                    .text(", if you want.")
                 )
             ),
             .div(.class("header-ribbon"))

@@ -56,9 +56,7 @@ header .site-description {
 }
 
 header p {
-    font-size: 1em;
     color: var(--light-secondary-text-color);
-    font-weight: 200;
 }
 
 header .header-link {

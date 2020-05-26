@@ -14,9 +14,9 @@ struct Blog: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://pmattos.me")!
+    var url = URL(string: "https://pmattos.com")!
     var name = "Piero Mattos"
-    var description = "I'm an iOS software engineer from Jundiaí, SP, Brazil."
+    var description = "A blog about programming and games."
     var language: Language { .english }
     var imagePath: Path? { nil }
 }
