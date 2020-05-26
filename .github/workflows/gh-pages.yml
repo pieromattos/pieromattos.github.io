@@ -23,6 +23,10 @@ jobs:
     - name: Generate Site
       run: publish generate
 
+    - name: Copy CNAME file
+      run: |
+        cp Resources/CNAME Output/CNAME
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
