@@ -11,7 +11,7 @@ public extension Theme {
     static var blog: Self {
         Theme(
             htmlFactory: BlogHTMLFactory(),
-            resourcePaths: ["Resources/Styles/styles.css"]
+            resourcePaths: ["Resources/styles/styles.css"]
         )
     }
 }
