@@ -1,12 +1,12 @@
 /* Colors */
 :root {
     --light-primary-bg-color: #fff;
-    --light-secondary-bg-color: #0b132b;
-    --light-tertiary-bg-color: #eeeeee;
+    --light-secondary-bg-color: #325b6f;
+    --light-tertiary-bg-color: #f4f4f4;
     --light-primary-text-color: #000;
     --light-secondary-text-color: #fff;
-    --light-primary-link-color: #eb9800;
-    --light-tag-bg-color: #3a506b;
+    --light-primary-link-color: #00adef;
+    --light-tag-bg-color: #559abb;
     --light-tag-text-color: #fff;
 }
 
@@ -79,13 +79,13 @@ nav li {
 
 h1 {
     margin-bottom: 20px;
-    font-size: 1.7em;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 h2 {
-    font-size: 1.4em;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: bold;
     margin: 20px 0;
     text-indent: 6px;
 }
@@ -132,7 +132,7 @@ a {
 
 .item-list h1 {
     margin-bottom: 8px;
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: medium;
 }
 
@@ -153,8 +153,8 @@ a {
     display: inline-block;
     background-color: var(--light-tag-bg-color);
     color: var(--light-tag-text-color);
-    font-weight: 600;
-    padding: 6px 10px;
+    font-weight: 400;
+    padding: 4px 8px;
     border-radius: 0.5em;
     margin-right: 8px;
     margin-top: 6px;
