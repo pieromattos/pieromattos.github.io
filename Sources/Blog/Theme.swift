@@ -166,6 +166,8 @@ private extension Node where Context == HTML.BodyContext {
                     .text("You can find me on: "),
                     .headerLink("GitHub", href: "https://www.github.com/pieromattos"),
                     .text(", "),
+                    .headerLink("Stack Overflow", href: "https://stackoverflow.com/users/6758510/piero-mattos"),
+                    .text(", "),
                     .headerLink("LinkedIn", href: "https://www.linkedin.com/in/pieromattos"),
                     .text(", and "),
                     .headerLink("Twitter", href: "https://www.twitter.com/piero_mattos"),
