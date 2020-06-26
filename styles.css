@@ -10,6 +10,17 @@
     --light-tag-text-color: #fff;
 }
 
+@font-face {
+    font-family: "Main";
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Main";
+    src: url(/fonts/OpenSans-Bold.ttf);
+    font-weight: bold;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +30,7 @@
 body {
     background: var(--light-primary-bg-color);
     color: var(--light-primary-text-color);
-    font-family: Trebuchet MS, Helvetica, Arial;
+    font-family: Main, Helvetica, Arial;
     text-align: center;
 }
 
