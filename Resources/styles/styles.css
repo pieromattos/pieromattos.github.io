@@ -12,12 +12,30 @@
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/OpenSans-Regular.ttf);
+    src: url(/fonts/NotoSansDisplay-Regular.ttf);
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/OpenSans-Bold.ttf);
+    src: url(/fonts/NotoSansDisplay-Light.ttf);
+    font-weight: light;
+}
+
+@font-face {
+    font-family: "Main";
+    src: url(/fonts/NotoSansDisplay-Italic.ttf);
+    font-weight: italic;
+}
+
+@font-face {
+    font-family: "Main";
+    src: url(/fonts/NotoSansDisplay-Medium.ttf);
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: "Main";
+    src: url(/fonts/NotoSansDisplay-Bold.ttf);
     font-weight: bold;
 }
 
@@ -30,7 +48,7 @@
 body {
     background: var(--light-primary-bg-color);
     color: var(--light-primary-text-color);
-    font-family: Main, Helvetica, Arial;
+    font-family: Segoe UI, Main, Helvetica, Arial;
     text-align: center;
 }
 
