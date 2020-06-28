@@ -163,17 +163,11 @@ private extension Node where Context == HTML.BodyContext {
                     .text("I'm an iOS software engineer and gamer from Jundiaí, SP, Brazil.")
                 ),
                 .p(
-                    .text("You can find me on: "),
                     .headerLink("GitHub", href: "https://www.github.com/pieromattos"),
-                    .text(", "),
                     .headerLink("Stack Overflow", href: "https://stackoverflow.com/users/6758510/piero-mattos"),
-                    .text(", "),
                     .headerLink("LinkedIn", href: "https://www.linkedin.com/in/pieromattos"),
-                    .text(", and "),
                     .headerLink("Twitter", href: "https://www.twitter.com/piero_mattos"),
-                    .text(". Or you can "),
-                    .headerLink("e-mail me", href: "mailto:piero@pmattos.com"),
-                    .text(", if you want.")
+                    .headerLink("E-mail", href: "mailto:piero@pmattos.com")
                 )
             ),
             .div(.class("header-ribbon"))
@@ -219,7 +213,7 @@ private extension Node where Context == HTML.BodyContext {
     }
 
     static func headerLink(_ text: String, href: String) -> Node {
-        .a(.class("header-link"), .text(text), .href(href))
+        .a(.class("header-link"), .text(text), .href(href), .target(.blank))
     }
 
     static func formattedPostDate(_ date: Date) -> String {
