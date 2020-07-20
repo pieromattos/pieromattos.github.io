@@ -13,89 +13,89 @@
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-Regular.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-Regular.ttf);
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-Italic.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-Italic.ttf);
     font-style: italic;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-Thin.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-Thin.ttf);
     font-weight: 100;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-ThinItalic.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-ThinItalic.ttf);
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-ExtraLight.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-ExtraLight.ttf);
     font-weight: 200;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-ExtraLightItalic.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-ExtraLightItalic.ttf);
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-Light.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-Light.ttf);
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-LightItalic.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-LightItalic.ttf);
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-Medium.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-Medium.ttf);
     font-weight: 500;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-MediumItalic.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-MediumItalic.ttf);
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-SemiBold.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-SemiBold.ttf);
     font-weight: 600;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-SemiBoldItalic.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-SemiBoldItalic.ttf);
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-Bold.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-Bold.ttf);
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Main";
-    src: url(/fonts/NotoSans/NotoSans-BoldItalic.ttf);
+    src: url(/fonts/NotoSansDisplay/NotoSansDisplay-BoldItalic.ttf);
     font-weight: bold;
     font-style: italic;
 }
@@ -137,7 +137,7 @@ header a {
 
 header .site-name {
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--light-secondary-text-color);
     margin-bottom: 12px;
 }
@@ -250,7 +250,6 @@ a {
 
 .item-list .post-date {
     text-indent: 4px;
-    font-style: italic;
     font-weight: 300;
 }
 
@@ -260,7 +259,7 @@ a {
     background-color: var(--light-tag-bg-color);
     color: var(--light-tag-text-color);
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     padding: 3px 6px;
     border-radius: 0.4em;
     border-color: var(--light-tag-border-color);
@@ -304,6 +303,6 @@ footer p {
 
 @media(max-width: 600px) {
     .wrapper {
-        padding: 40px 20px;
+        padding: 20px 20px;
     }
 }
