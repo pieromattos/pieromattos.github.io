@@ -181,7 +181,7 @@ private extension Node where Context == HTML.BodyContext {
                 .li(
                     .article(
                         .h1(.a( .href(item.path), .text(item.title))),
-                        .p(.class("post-date"), "Posted on \(formattedPostDate(item.date))"),
+                        .p(.class("post-date"), "\(formattedPostDate(item.date))"),
                         .tagList(for: item, on: site),
                         .p(.text(item.description))
                     )
@@ -219,7 +219,7 @@ private extension Node where Context == HTML.BodyContext {
     static func formattedPostDate(_ date: Date) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "en_US")
-        dateFormatter.dateStyle = .medium
+        dateFormatter.dateStyle = .long
         return dateFormatter.string(from: date)
     }
 }
