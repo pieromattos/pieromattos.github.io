@@ -1,6 +1,7 @@
 ---
 tags: programming, ios, swift, apple, wwdc
 date: 2019-07-11 00:00
+description: "This was a WWDC for the ages" - That’s how Marco Arment described it during one of the latest episodes of his Under The Radar show, a podcast about independent iOS app development. Marco is an independent software developer, responsible for the popular iOS podcasts app Overcast and one of the most active voices in the iOS developers and Apple fans communities.
 ---
 
 # My experience at Apple’s 2019 WWDC

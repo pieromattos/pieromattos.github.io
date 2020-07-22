@@ -1,6 +1,7 @@
 ---
 tags: programming, ios, swift
 date: 2020-01-18 00:00
+description: Recently, I had the chance to attend NSBrazil 2019, the biggest iOS developer conference in Brazil. The conference took place on the first weekend of November 2019 in São Paulo, and was full of interesting talks about iOS development and Swift. 
 ---
 
 # My experience at NSBrazil 2019

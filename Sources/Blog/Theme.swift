@@ -182,8 +182,12 @@ private extension Node where Context == HTML.BodyContext {
                     .article(
                         .h1(.a( .href(item.path), .text(item.title))),
                         .p(.class("post-date"), "\(formattedPostDate(item.date))"),
-                        .tagList(for: item, on: site),
-                        .p(.text(item.description))
+                        .p(.class("post-preview"), .text(item.description)),
+                        .p(.class("post-callout"), .a(
+                            .class("callout-anchor"),
+                            .href(item.path),
+                            .text("continue reading...")
+                        ))
                     )
                 )
             }
@@ -221,5 +225,9 @@ private extension Node where Context == HTML.BodyContext {
         dateFormatter.locale = Locale(identifier: "en_US")
         dateFormatter.dateStyle = .long
         return dateFormatter.string(from: date)
+    }
+
+    static func preview<T: Website>(for item: Item<T>) -> String {
+        ""
     }
 }

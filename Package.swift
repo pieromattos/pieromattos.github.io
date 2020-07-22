@@ -8,12 +8,14 @@ let package = Package(
         .executable(name: "Blog", targets: ["Blog"])
     ],
     dependencies: [
-        .package(url: "https://github.com/johnsundell/publish.git", .exact("0.4.0"))
+        .package(url: "https://github.com/johnsundell/publish.git", .exact("0.5.0"))
     ],
     targets: [
         .target(
             name: "Blog",
-            dependencies: ["Publish"]
+            dependencies: [
+                "Publish"
+            ]
         )
     ]
 )

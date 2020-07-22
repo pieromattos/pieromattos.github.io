@@ -9,6 +9,7 @@
     --light-tag-bg-color: #559abb;
     --light-tag-text-color: #fff;
     --light-tag-border-color: #325b6f;
+    --light-detail-color: #325b6f;
 }
 
 @font-face {
@@ -144,7 +145,7 @@ header .site-name {
 
 header p {
     color: var(--light-secondary-text-color);
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
 }
 
@@ -196,7 +197,7 @@ h4 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 article p {
@@ -237,7 +238,6 @@ a {
 .item-list h1 {
     margin-bottom: 4px;
     font-size: 20px;
-    font-weight: 500;
 }
 
 .item-list h1 a {
@@ -249,8 +249,29 @@ a {
 }
 
 .item-list .post-date {
+    font-size: 13px;
     text-indent: 4px;
-    font-weight: 300;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 4px;
+    color: var(--light-detail-color);
+}
+
+.item-list .post-preview {
+    padding-top: 7px;
+    text-indent: 4px;
+    line-height: 1.4;
+}
+
+.item-list .post-callout {
+    padding-top: 5px;
+    text-indent: 4px;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.item-list .callout-anchor {
+    color: var(--light-detail-color);
 }
 
 .tag-list li,

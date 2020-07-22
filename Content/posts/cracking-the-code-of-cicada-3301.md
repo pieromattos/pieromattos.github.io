@@ -1,6 +1,7 @@
 ---
 tags: documentary, programming
 date: 2019-08-18 00:00
+description: What a fascinating short documentary about Cicada 3301 and the puzzles it has created. Definitely worth watching.
 ---
 
 # “Cracking the Code of Cicada 3301”

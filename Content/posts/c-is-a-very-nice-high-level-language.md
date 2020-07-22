@@ -1,6 +1,7 @@
 ---
 tags: programming
 date: 2020-03-08 00:00
+description: Yesterday I stumbled upon this 1982 video from the AT&T Archives about the then new UNIX operating system. Five minutes in, Brian Kernighan provides an overview of how the UNIX operating system worked and how one could write a simple program for it using a novel feature the system had: the ability to pipe an output from one program as the input to another.
 ---
 
 # "C is a very nice high-level language"
