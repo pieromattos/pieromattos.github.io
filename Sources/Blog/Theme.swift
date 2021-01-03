@@ -160,7 +160,7 @@ private extension Node where Context == HTML.BodyContext {
                     .a(.href("/"), .text(context.site.name))
                 ),
                 .p(
-                    .text("I'm an iOS software engineer and gamer from Jundiaí, SP, Brazil.")
+                    .text("I'm an iOS software engineer and gamer from Campinas, SP, Brazil.")
                 ),
                 .p(
                     .headerLink("GitHub", href: "https://www.github.com/pieromattos"),
